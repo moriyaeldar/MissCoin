@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    background-color: rgba(194, 165, 165, 0.164);
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 10px;
+    h1{
+        // font-family: JosefinSans;
+        color: tomato;
+        font-size: 32px;
+    }
+    a{
+        text-decoration: unset;
+        color: rebeccapurple;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    span{
+        font-size: 32px;
+    }
+}

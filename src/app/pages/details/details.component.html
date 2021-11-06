@@ -1,0 +1,11 @@
+<div class="contact-details">
+<img src="https://robohash.org/{{contact.name}}" alt="">
+<h1>{{contact.name}}</h1>
+<h2>{{contact.phone}}</h2>
+<h3>{{contact.email}}</h3>
+<form (ngSubmit)="onTransfer()">
+    <label for="transfer">transfer:</label>
+    <input [(ngModel)]="transfer" type="number" value="value" name="transfer" id="transfer">
+</form>
+<a [routerLink]="['/edit', contact._id]" >Edit</a>
+</div>

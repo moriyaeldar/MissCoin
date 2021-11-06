@@ -1,0 +1,13 @@
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rosybrown 0.5px solid;
+    border-radius: 15px;
+    margin: 10px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    a{text-decoration: none;}
+}

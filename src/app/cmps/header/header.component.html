@@ -1,0 +1,10 @@
+<div class="header">
+  <a routerLink="/"><h1><span>&#8383; </span> MissCoin</h1></a>
+  <nav>
+    <a routerLink="/login" *ngIf="!currUser">Login</a>
+    <a href=""  *ngIf="currUser" (click)="onLogout()">Logout</a>
+    <a routerLink="/contact">Contacts</a>
+    <a routerLink="/statistics">Statistics</a>
+  </nav>
+
+</div>

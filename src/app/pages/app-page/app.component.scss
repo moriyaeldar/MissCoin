@@ -1,0 +1,78 @@
+.time {
+    width: 200px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 10px 20px;
+    margin-top:50px;
+    border-radius:12px;
+    border: 0.5px solid;
+    background-color: white;
+    color: black;
+
+
+  h1 {
+    z-index: 1;
+    text-align: center;
+  }
+  h2{
+    color: cadetblue;
+  }
+  img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+      &.winter{
+        object-position: -20px;
+      }
+    &.summer{
+        object-position: -370px;
+    }
+    &.spring{
+        object-position: -190px;
+
+    }
+    &.autumn{
+        object-position: -545px;
+
+    }
+  }
+}
+
+.dark{
+  width: 200px;
+  margin: 0 auto;
+  height: 300px;
+  padding: 10px 20px;
+  margin-top:50px;
+  border-radius:12px;
+  border: 0.5px solid;
+    background-color: black;
+    color: white;
+
+    h1 {
+      z-index: 1;
+      text-align: center;
+    }
+    h2{
+      color: cadetblue;
+    }
+    img{
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+        &.winter{
+          object-position: -20px;
+        }
+      &.summer{
+          object-position: -370px;
+      }
+      &.spring{
+          object-position: -190px;
+  
+      }
+      &.autumn{
+          object-position: -545px;
+  
+      }
+    }
+}

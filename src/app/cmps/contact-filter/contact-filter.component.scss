@@ -1,0 +1,11 @@
+.contact-filter {
+  input{
+    margin: 20px;
+    display: flex;
+    border: none;
+    border-bottom: rgb(64, 123, 150) 0.5px solid;
+  }
+  input:focus {
+ border: 0.5px solid;
+}
+}
